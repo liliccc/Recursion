@@ -1,5 +1,7 @@
 package algorithm.oneWayRecursion;
 
+import algorithm.oneWayRecursion.utils.ListNode;
+
 public class SwapNodesinPairs {
     /**
      * @param head: a ListNode
@@ -18,12 +20,3 @@ public class SwapNodesinPairs {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
